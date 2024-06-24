@@ -4,7 +4,7 @@ metadata:
   name: nginx-deployment
   labels:
     app: nginx
-  namespace: default
+  namespace: devops
 spec:
   replicas: 1
   selector:
